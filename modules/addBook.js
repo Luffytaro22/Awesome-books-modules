@@ -21,4 +21,4 @@ export default function addBook(event) {
 
   /* Creates the new book element */
   book.createBook(book);
-};
+}
