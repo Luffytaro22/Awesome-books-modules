@@ -1,4 +1,4 @@
-import { Methods } from "./methods";  // Books methods
+import { Methods } from './methods.js';  // Books methods
 
 export class Books extends Methods {
   constructor(title, author) {
