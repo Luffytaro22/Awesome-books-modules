@@ -1,6 +1,6 @@
 import { mainContainer } from './elements.js';
 
-export class Methods {
+export default class Methods {
   constructor() {
     this.books = [];
 

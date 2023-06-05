@@ -1,5 +1,5 @@
 import {form, titleInput, authorInput} from './elements.js';
-import {Books} from './books.js';
+import Books from './books.js';
 
 /* A function that is called when the user clicks the submit button */
 export const addBook = (event) => {

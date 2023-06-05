@@ -1,4 +1,6 @@
-import { booksSection, formSection, contactSection, list, contact, addNew, iconList, iconBook, iconContact } from "./elements.js";
+import {
+  booksSection, formSection, contactSection, list, contact, addNew, iconList, iconBook, iconContact
+} from './elements.js';
 
 function showForm() {
   booksSection.classList.add('hide');
@@ -42,4 +44,4 @@ function showBooks() {
   iconContact.classList.remove('change-color');
 }
 
-export {showBooks, showContact, showForm};
+export { showBooks, showContact, showForm };
