@@ -1,10 +1,14 @@
 import {Methods} from './modules/methods.js';  // Books methods. 
-import {submitButton, list, iconList, addNew, iconBook, contact, iconContact} from './modules/elements.js';
+import {submitButton, list, iconList, addNew, iconBook, contact, iconContact, pDate} from './modules/elements.js';
 import {addBook} from './modules/addBook.js';
 import { showBooks, showContact, showForm } from './modules/sections.js';
+const { DateTime } = luxon;
 
 const myBooks = new Methods();
 myBooks.displayBooks();
+
+const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+pDate.innerHTML = date;
 
 submitButton.addEventListener('click', addBook);
 
