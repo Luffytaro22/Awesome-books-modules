@@ -1,5 +1,6 @@
 import {
-  booksSection, formSection, contactSection, list, contact, addNew, iconList, iconBook, iconContact
+  booksSection, formSection, contactSection,
+  list, contact, addNew, iconList, iconBook, iconContact,
 } from './elements.js';
 
 function showForm() {

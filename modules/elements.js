@@ -18,5 +18,5 @@ const iconContact = document.querySelector('#icon-contact');
 export {
   mainContainer, titleInput, authorInput, submitButton,
   form, pDate, list, addNew, contact, booksSection, formSection,
-  contactSection, iconList, iconBook, iconContact
+  contactSection, iconList, iconBook, iconContact,
 };
