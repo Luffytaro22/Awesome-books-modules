@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "luxon": "^3.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
   }
 }
