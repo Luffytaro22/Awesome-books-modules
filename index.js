@@ -2,7 +2,7 @@ import {Methods} from './modules/methods.js';  // Books methods.
 import {submitButton, list, iconList, addNew, iconBook, contact, iconContact, pDate} from './modules/elements.js';
 import {addBook} from './modules/addBook.js';
 import { showBooks, showContact, showForm } from './modules/sections.js';
-const { DateTime } = luxon;
+import {DateTime} from './node_modules/luxon/src/luxon.js';
 
 const myBooks = new Methods();
 myBooks.displayBooks();
