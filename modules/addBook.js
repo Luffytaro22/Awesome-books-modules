@@ -4,8 +4,7 @@ import {Books} from './books.js';
 /* A function that is called when the user clicks the submit button */
 export const addBook = (event) => {
   /* Create a new book */
-  const book = new Books();
-  book.info(titleInput.value, authorInput.value);
+  const book = new Books(titleInput.value, authorInput.value);
 
   /* If the inputs has no values then form is not submmited */
   if (!titleInput.validity.valueMissing && !authorInput.validity.valueMissing) {
